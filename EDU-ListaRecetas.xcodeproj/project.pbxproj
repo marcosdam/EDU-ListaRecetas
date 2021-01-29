@@ -14,6 +14,13 @@
 		A273C48F25C458D300C9B5BA /* EDU_ListaRecetas.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A273C48D25C458D300C9B5BA /* EDU_ListaRecetas.xcdatamodeld */; };
 		A273C49125C458D800C9B5BA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A273C49025C458D800C9B5BA /* Assets.xcassets */; };
 		A273C49425C458D800C9B5BA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A273C49225C458D800C9B5BA /* LaunchScreen.storyboard */; };
+		A273C49E25C4596200C9B5BA /* IngredienteModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C49D25C4596200C9B5BA /* IngredienteModel.swift */; };
+		A273C4A025C459C600C9B5BA /* RecetaModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C49F25C459C600C9B5BA /* RecetaModel.swift */; };
+		A273C4A225C45D4100C9B5BA /* AddIngredienteVViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C4A125C45D4100C9B5BA /* AddIngredienteVViewController.swift */; };
+		A273C4A425C45D5100C9B5BA /* AddRecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C4A325C45D5100C9B5BA /* AddRecetaViewController.swift */; };
+		A273C4A625C45D6000C9B5BA /* VerRecetaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C4A525C45D6000C9B5BA /* VerRecetaViewController.swift */; };
+		A273C4A825C4612F00C9B5BA /* IngredienteTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C4A725C4612F00C9B5BA /* IngredienteTableViewCell.swift */; };
+		A273C4AA25C4656C00C9B5BA /* RecetaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A273C4A925C4656C00C9B5BA /* RecetaTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +33,13 @@
 		A273C49025C458D800C9B5BA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A273C49325C458D800C9B5BA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A273C49525C458D800C9B5BA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A273C49D25C4596200C9B5BA /* IngredienteModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredienteModel.swift; sourceTree = "<group>"; };
+		A273C49F25C459C600C9B5BA /* RecetaModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetaModel.swift; sourceTree = "<group>"; };
+		A273C4A125C45D4100C9B5BA /* AddIngredienteVViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddIngredienteVViewController.swift; sourceTree = "<group>"; };
+		A273C4A325C45D5100C9B5BA /* AddRecetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddRecetaViewController.swift; sourceTree = "<group>"; };
+		A273C4A525C45D6000C9B5BA /* VerRecetaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VerRecetaViewController.swift; sourceTree = "<group>"; };
+		A273C4A725C4612F00C9B5BA /* IngredienteTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IngredienteTableViewCell.swift; sourceTree = "<group>"; };
+		A273C4A925C4656C00C9B5BA /* RecetaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecetaTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +72,8 @@
 		A273C48325C458D300C9B5BA /* EDU-ListaRecetas */ = {
 			isa = PBXGroup;
 			children = (
+				A273C49C25C4591F00C9B5BA /* Modelos */,
+				A273C49B25C4591200C9B5BA /* Controllers */,
 				A273C48425C458D300C9B5BA /* AppDelegate.swift */,
 				A273C48625C458D300C9B5BA /* SceneDelegate.swift */,
 				A273C48825C458D300C9B5BA /* ViewController.swift */,
@@ -68,6 +84,27 @@
 				A273C48D25C458D300C9B5BA /* EDU_ListaRecetas.xcdatamodeld */,
 			);
 			path = "EDU-ListaRecetas";
+			sourceTree = "<group>";
+		};
+		A273C49B25C4591200C9B5BA /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				A273C4A125C45D4100C9B5BA /* AddIngredienteVViewController.swift */,
+				A273C4A325C45D5100C9B5BA /* AddRecetaViewController.swift */,
+				A273C4A525C45D6000C9B5BA /* VerRecetaViewController.swift */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		A273C49C25C4591F00C9B5BA /* Modelos */ = {
+			isa = PBXGroup;
+			children = (
+				A273C4A925C4656C00C9B5BA /* RecetaTableViewCell.swift */,
+				A273C49D25C4596200C9B5BA /* IngredienteModel.swift */,
+				A273C49F25C459C600C9B5BA /* RecetaModel.swift */,
+				A273C4A725C4612F00C9B5BA /* IngredienteTableViewCell.swift */,
+			);
+			name = Modelos;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -141,9 +178,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A273C4A825C4612F00C9B5BA /* IngredienteTableViewCell.swift in Sources */,
+				A273C4AA25C4656C00C9B5BA /* RecetaTableViewCell.swift in Sources */,
 				A273C48925C458D300C9B5BA /* ViewController.swift in Sources */,
+				A273C4A225C45D4100C9B5BA /* AddIngredienteVViewController.swift in Sources */,
+				A273C4A025C459C600C9B5BA /* RecetaModel.swift in Sources */,
+				A273C49E25C4596200C9B5BA /* IngredienteModel.swift in Sources */,
+				A273C4A425C45D5100C9B5BA /* AddRecetaViewController.swift in Sources */,
 				A273C48525C458D300C9B5BA /* AppDelegate.swift in Sources */,
 				A273C48F25C458D300C9B5BA /* EDU_ListaRecetas.xcdatamodeld in Sources */,
+				A273C4A625C45D6000C9B5BA /* VerRecetaViewController.swift in Sources */,
 				A273C48725C458D300C9B5BA /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -297,7 +341,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "marcosledesma.EDU-ListaRecetas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -314,7 +358,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "marcosledesma.EDU-ListaRecetas";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
